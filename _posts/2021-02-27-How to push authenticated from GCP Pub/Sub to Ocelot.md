@@ -49,7 +49,7 @@ AuthenticationSchemeOptions holds convenience properties used to declare the con
 
 The method HandleAuthenticateAsync will be called in execution time on every request,  AuthenticationHandler will give us access to the context, logging as well other actions.
 
-```
+ ```
 public class CustomAuthHandler_ : AuthenticationHandler<AuthenticationSchemeOptions>
 {
     public CustomAuthHandler_(IOptionsMonitor options, ILoggerFactory logger, 
@@ -62,7 +62,7 @@ public class CustomAuthHandler_ : AuthenticationHandler<AuthenticationSchemeOpti
         throw new NotImplementedException();
     }
 }
-  ```
+ ```
  
   
 A possible implementation could look like this:
