@@ -49,7 +49,7 @@ AuthenticationSchemeOptions holds convenience properties used to declare the con
 
 The method HandleAuthenticateAsync will be called in execution time on every request,  AuthenticationHandler will give us access to the context, logging as well other actions.
 
-
+```
 public class CustomAuthHandler_ : AuthenticationHandler<AuthenticationSchemeOptions>
 {
     public CustomAuthHandler_(IOptionsMonitor options, ILoggerFactory logger, 
@@ -62,8 +62,12 @@ public class CustomAuthHandler_ : AuthenticationHandler<AuthenticationSchemeOpti
         throw new NotImplementedException();
     }
 }
+  ```
+ 
+  
 A possible implementation could look like this:
 
+  ```
 protected override async Task HandleAuthenticateAsync()
 {
     AuthenticationTicket ticket = null;
@@ -90,6 +94,7 @@ protected override async Task HandleAuthenticateAsync()
 
     return AuthenticateResult.Success(ticket);
 }
+  
 
 /// <summary>
         /// Transform payload into a list of ClaimsIdentity 
@@ -123,10 +128,14 @@ protected override async Task HandleAuthenticateAsync()
 
             return new List<ClaimsIdentity>(1) { new ClaimsIdentity(claims, "custom") };
         }
+  
+  ```
+  
 GoogleJsonWebSignature.ValidateAsync is fast and efficient, due to the fact it caches Google's certificates, anyway if you need to, you can indicate it to always refresh the certificate. Finally, if everything goes ok with the validation then I transform the payload into a List<ClaimIdentity>, but this last step is not necessary.  
 
 ### 3.-Create an extension method to simplify the custom handler utilization
   
+  ```
 public static class CustomAuthBuilderExtension
 {
     public static AuthenticationBuilder AddCustomAuth(this AuthenticationBuilder builder)
@@ -135,9 +144,11 @@ public static class CustomAuthBuilderExtension
         return builder.AddScheme("custom", o => { });
     }
 }
+  ```
   
 ### 4.-Finally put all the pieces together
   
+  ```
 public void ConfigureServices(IServiceCollection services)
 {
     services.AddOcelot();
@@ -148,6 +159,7 @@ public void ConfigureServices(IServiceCollection services)
      })
      .AddCustomAuth();    
 }
+  ```
   
 It makes sense to force only one type of authentication scheme if you use Ocelot as a BFF, but in more complex scenarios you may want to mix authenticated and not authenticated routes.
   
