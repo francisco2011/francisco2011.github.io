@@ -14,11 +14,3 @@ permalink: /resume/
 {% include experiences.html %}
 
 {% include certifications.html %}
-
-{% include projects.html %}
-
-{% include oss-contributions.html %}
-
-{% include publications.html %}
-
-{% include skills.html %}
