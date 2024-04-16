@@ -8,13 +8,13 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Francisco Contreras Olea 
+    tagline: Software Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
+    email: francisco.olea2011@gmail.com
+    phone: +1(204)9631756
     timezone: America/Cancun Timezone
     citizenship:
     website: blog.webjeda.com #do not add http://
@@ -57,12 +57,10 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Seasoned software developer experienced in the delivery and evolution of operation critical systems; I
+      have designed and implemented efficient and scalable software solutions combining modern
+      architecture principles and patterns as well as cloud infrastructure.
+
 education:
     title: Education
     info:
@@ -92,44 +90,71 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Analyst Programmer
+        time: January – April 2024
+        company: Winnipeg Transit, City of Winnipeg
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Configure and test the schedulling and booking solution for the Winnipegs AI driven paratransit solution.
+            - Develop and document system design, including data models, process models, and component
+              specifications to address customers’ requirements.
+            - Elicit business rules, processes and use cases.
+            - Migrate and Consolidate data from multiple sources to a single source of truth.
+            - Configure, test, and verify functionality related to use cases.
+            - Participate in post-implementation review.
 
+      - role: Senior Software Engineer
+        time: August 2021-January 2024
+        company: S.A.C.I. Falabella, Santiago, Chile
+        details: |
+            - Software developer in charge of solutions design and implementation, data storage design, and
+              propose improvements over processes and tools.
+            - Prioritize, identify, and manage the technical debt to contribute to the optimization and schedule of the
+              fixes and improvements on the set of products I lead.
+            - Provide technical guidance to the corporate tax and the corporate document teams in matters of
+              software architecture, use of cloud services, software integration, and database modeling.
+            - Accomplish corporate technical requirements to provide the company with the capacity to process more
+              than 400 million electronic billing documents per year taking advantage of microservices architecture,
+              asynchronous integration patterns, Node JS and Google Cloud infrastructure.
+            - Implement and design the integrations with Hyland Onbase, Adobe Sign, billing partners, and other
+              business units to provide the whole company with a single set of API services from where to access
+              document storage, management, and digital signing.
+
+      - role: Senior Software developer
+        time: November 2019-June 2021
+        company: Lipigas S.A, Santiago, Chile
+        details: |
+            - Promote a microservices strategy along with the utilization of cloud technologies, which has been an
+              integral step in the companys digital transformation efforts.
+            - Led the implementation of an ecosystem of services capable of providing the company with the
+              capacity to increase its online sales from 10% of the total to 50%.
+            - Develop innovative initiatives like the point rewards program, the first of its kind in the Chilean liquid gas
+              market.
+            - I led the development of the Lipigas mobile app, participating directly in the integration of Google Ads,
+              Backend for frontend implementation, and Firebase integration.
+      
+      - role: Software Developer
+        time: September 2016-November 2019
+        company: XMS Business Solutions, Santiago, Chile
+        details: |
+            - Support and establish a relationship of trust with the IT teams of Salfacorp and Inmobiliaria Aconcagua.
+            - Software developer and .Net framework consultant. I was in charge of proposing our clients solutions
+              based on the best practices and tools provided by the company and Microsoft ecosystem.
+            - Responsible for technical leadership of a team composed of 5 people.
+            - Recognized as one of the best employees in 2017.
+      
+      - role: Programmer analyst
+        time: July 2015-September 2016
+        company: Tata Consultancy Services | Client LATAM Airlines, Santiago, Chile
+        details: |
+            - Establish myself as a professional capable of taking challenges and carrying them out.
+            - I planned and implemented the core services and database for a system that managed to classify
+              millions of LATAM clients each day.
+            - Provide correct and cost-effective solutions taking into consideration complex business use cases and
+              procedures as the real-time identification and classification of VIP clients on each flight.
+            - In charge of coordinating technical upgrades to the developed services with the architect and an
+              offshore development team.
+            - Implement and optimize Oracle PL/SQL scripts to improve response time for the real-time classification
+              process.
 certifications:
       title: Certifications
       list:
