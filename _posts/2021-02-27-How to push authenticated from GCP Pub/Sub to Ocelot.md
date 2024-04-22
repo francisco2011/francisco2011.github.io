@@ -26,8 +26,7 @@ Basically, we will create a custom authentication handler that will delegate to 
 Lest start!
 ### 1.-create a Pub/Sub push subscription
 
-![pubsub_conf.png]({{site.baseurl}}/_posts/pubsub_conf.png)
-
+![pubsub_conf.png]({{site.baseurl}}/images\how_to_push_auth\pubsub_conf.png)
 
 ### Notes
 
