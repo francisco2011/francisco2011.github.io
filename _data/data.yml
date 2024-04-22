@@ -57,50 +57,36 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Seasoned software developer experienced in the delivery and evolution of operation critical systems; I
-      have designed and implemented efficient and scalable software solutions combining modern
-      architecture principles and patterns as well as cloud infrastructure.
+      Seasoned software developer experienced in the design and development of efficient and scalable software solutions combining modern Software Architecture principles and cloud infrastructure. 
 
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      - degree: Data Science and Machine Learning Diploma 
+        university: Red River College Polytechnic, Winnipeg, Manitoba
+        time: 2022-2024
+      - degree: Computer Programming and Analysis Diploma 
+        university: DUOC UC, Santiago, Chile
+        time: 2012-2014
+      - degree: Computer Network Administration Diploma  
+        university: DUOC UC, Santiago, Chile
+        time: 2009-2011
+
 
 experiences:
     title: Experiences
     info:
-      - role: Analyst Programmer
+      - role: Analyst Programmer Intern
         time: January – April 2024
         company: Winnipeg Transit, City of Winnipeg
         details: |
-          Configure and test the schedulling and booking solution for the Winnipegs AI driven paratransit solution.
+          Test and configure the booking and scheduling solution for Winnipeg Transit pararatransit solution
             - Develop and document system design, including data models, process models, and component
               specifications to address customers’ requirements.
-            - Elicit business rules, processes and use cases.
             - Migrate and Consolidate data from multiple sources to a single source of truth.
             - Configure, test, and verify functionality related to use cases.
             - Participate in post-implementation review.
+            - Execute System Test to identify issues related to security vulnerabilities, configuration and third party integrations such as Azure Active Directory.
 
       - role: Senior Software Engineer
         time: August 2021-January 2024
@@ -118,6 +104,7 @@ experiences:
             - Implement and design the integrations with Hyland Onbase, Adobe Sign, billing partners, and other
               business units to provide the whole company with a single set of API services from where to access
               document storage, management, and digital signing.
+            - Ensure Apis responsiveness as well as correct functionality through the implementation of load and test stress using Grafana k6 and Locust. 
 
       - role: Senior Software developer
         time: November 2019-June 2021
@@ -207,6 +194,10 @@ projects:
         link: "#"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
+core-competencies: 
+      title: Core Competencies
+      info: Software Architecture | Design Patters | Microservices | Google Cloud | C# | JS | Typescript | OOAD | Python | .Net framework | .Net Core | Redis | Node JS | SQL | NoSQL | GIT | PostgreSQL | SQL Server | Oracle database | Angular | React | RESTfull | SCRUM  
+
 oss:
     title: OSS Contributions
     intro: >
@@ -247,28 +238,6 @@ publications:
         link: "#"
         authors: Edgar T. Irons
         conference: "Comm. ACM 4 (1961), 51–55"
-
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

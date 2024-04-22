@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: resume
 title: Resume
 permalink: /resume/
 ---
@@ -7,9 +7,9 @@ permalink: /resume/
 
 {% include career-profile.html %}
 
-{% unless site.data.data.sidebar.education %}
-  {% include education.html %}
-{% endunless %}
+{% include core-competencies.html %}
+
+{% include education.html %}
 
 {% include experiences.html %}
 
