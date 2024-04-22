@@ -196,7 +196,8 @@ projects:
 
 core-competencies: 
       title: Core Competencies
-      info: Software Architecture | Design Patters | Microservices | Google Cloud | C# | JS | Typescript | OOAD | Python | .Net framework | .Net Core | Redis | Node JS | SQL | NoSQL | GIT | PostgreSQL | SQL Server | Oracle database | Angular | React | RESTfull | SCRUM  
+      info: Software Architecture, Design Patters, Microservices, Google Cloud, C#, JS, Typescript, OOAD, Python, .Net framework, .Net Core, Redis, Node JS, SQL, NoSQL, GIT
+            , PostgreSQL, SQL Server, Oracle database, Angular, React, RESTfull, SCRUM  
 
 oss:
     title: OSS Contributions

@@ -9,7 +9,7 @@
 
     {% for graduation in education.info %}
     <div>
-      <h4>{{ graduation.degree }} | {{ graduation.time }}</h4>
+      <h4>{{ graduation.degree }}, {{ graduation.time }}</h4>
       {{ graduation.university }}
       
     </div><!--//item-->
@@ -20,28 +20,24 @@
   <section>
 
     <h2 >
-      <span >
-        <i ></i>
-        <i ></i>
-      </span>
       {{ education.title }}
     </h2>
 
     {% for graduation in education.info %}
-    <div class="item">
+    <div>
 
-      <div class="meta">
+      <div>
 
-        <div class="upper-row">
-          <h3 class="degree">{{ graduation.degree }}</h3>
-          <div class="time">{{ graduation.time }}</div>
+        <div>
+          <h3>{{ graduation.degree }}</h3>
+          <div>{{ graduation.time }}</div>
         </div><!--//upper-row-->
 
-        <div class="university">{{ graduation.university }}</div>
+        <div>{{ graduation.university }}</div>
       </div><!--//meta-->
 
       {% if graduation.details %}
-      <div class="details">
+      <div>
         {{ graduation.details | markdownify }}
       </div><!--//details-->
       {% endif %}
