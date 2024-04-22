@@ -1,9 +1,9 @@
 
-In this new entrance, I will show you how you can use GCP's Authentication scheme to secure the messages incoming from GCP's Pub/Sub to Ocelot API Gateway.
+Hi again! In this new entrance, I will show you how you can use GCP's Authentication scheme to secure the messages incoming from GCP's Pub/Sub to Ocelot.
 
 I'll assume you want to do something like the image shows, external services could be even a GKE cluster. The pattern itself has nothing wrong, but by default, there is no authentication scheme being used apart from HTTPS.
 
-
+![scenario.png]({{site.baseurl}}/images\how_to_push_auth\scenario.png)
 
 
 Therefore we will configure the Ocelot push subscription to make use of the Oauth2 authentication, in the Ocelot side we will dispatch the token validation to a Google library that will make all the work for us.
