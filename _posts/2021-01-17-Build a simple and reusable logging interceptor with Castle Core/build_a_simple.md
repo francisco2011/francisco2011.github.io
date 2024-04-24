@@ -187,4 +187,4 @@ private void write(Object[] parameters, IInvocation invocation)
 
 ## Final thoughts
 
-I wish I knew this 3 years ago and I wish to see more software developers considering this type of tools in their designs, mainly because as I stated in this entry implementing interceptors is not that hard and they will g you the power to quickly add new features to your systems without making big changes. Logging is a feature that can save your life!
+I wish I knew this 3 years ago and I wish to see more software developers considering this type of tools in their designs, mainly because as I stated in this entry implementing interceptors is not that hard and they will give you the power to quickly add new features to your systems without making big changes. Logging is a feature that can save your life!
